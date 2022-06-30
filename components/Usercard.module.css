@@ -1,0 +1,50 @@
+.usercard {
+    background-color: orange;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.h1tag {
+    font-size: 20px;
+}
+
+.redcolor {
+    color: red;
+}
+
+
+.h2tag {
+    font-size: 17px;
+}
+
+.h3tag {
+    color: orange;
+}
+
+.ptag {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: orange;
+}
