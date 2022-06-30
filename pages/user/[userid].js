@@ -1,5 +1,5 @@
 import React from 'react'
-import Usercard from '../../components/usercard';
+import Usercard from '../../components/Usercard';
 export const getStaticPaths = async () => {
 
     const res = await fetch("https://jsonplaceholder.typicode.com/users")
